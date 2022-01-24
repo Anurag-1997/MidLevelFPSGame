@@ -1,0 +1,5 @@
+This is a first person shooter game using Terrain and AI.
+win condition : when the player shoots down all the enemies and need to reach the end of the level
+lose condition: when player got hit by bullet and collision with enemy
+platform : PC
+

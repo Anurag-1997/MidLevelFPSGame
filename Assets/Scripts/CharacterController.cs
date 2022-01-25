@@ -13,6 +13,8 @@ public class CharacterController : MonoBehaviour
     private Quaternion camRotation;
     private Quaternion playerRotation;
     public float mouseSens;
+    public float minX = -90.0f;
+    public float maxX = 90.0f;
 
     private void Awake()
     {
@@ -37,10 +39,25 @@ public class CharacterController : MonoBehaviour
         playerRotation = playerRotation * Quaternion.Euler(0, mousex, 0);
         transform.localRotation = playerRotation;
         cam.transform.localRotation = camRotation;
+        camRotation = ClampRotationOnXaxis(camRotation);
         
 
         
     }
+
+    Quaternion ClampRotationOnXaxis(Quaternion value)
+    {
+        value.x /= value.w;
+        value.y /= value.w;
+        value.z /= value.w;
+        value.w = 1.0f;
+        float angleX = 2.0f * Mathf.Rad2Deg * Mathf.Atan(value.x);
+        angleX = Mathf.Clamp(angleX, minX, maxX);
+        value.x = Mathf.Tan(0.5f * Mathf.Deg2Rad * angleX);
+        return value;
+        
+    }
+
     bool PlayerGrounded()
     {
         RaycastHit hitInfo;

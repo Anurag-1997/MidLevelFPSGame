@@ -9,6 +9,10 @@ public class CharacterController : MonoBehaviour
     public float playerJumpValue;
     private bool isGrounded;
     private CapsuleCollider capsulecollider;
+    public GameObject cam;
+    private Quaternion camRotation;
+    private Quaternion playerRotation;
+    public float mouseSens;
 
     private void Awake()
     {
@@ -18,7 +22,8 @@ public class CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        camRotation = cam.transform.localRotation;
+        playerRotation = transform.localRotation;
     }
 
     // Update is called once per frame
@@ -26,6 +31,12 @@ public class CharacterController : MonoBehaviour
     {
         PlayerMovement();
         PlayerJumpMovement();
+        float mousex = Input.GetAxis("Mouse X") * mouseSens;
+        float mousey = Input.GetAxis("Mouse Y") * mouseSens;
+        camRotation = camRotation * Quaternion.Euler(-mousey, 0, 0);
+        playerRotation = playerRotation * Quaternion.Euler(0, mousex, 0);
+        transform.localRotation = playerRotation;
+        cam.transform.localRotation = camRotation;
         
 
         

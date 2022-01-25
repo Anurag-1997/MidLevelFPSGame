@@ -76,7 +76,8 @@ public class CharacterController : MonoBehaviour
     {
         float horizontalMovement = Input.GetAxis("Horizontal") * playerSpeed;
         float forwardMovement = Input.GetAxis("Vertical") * playerSpeed;
-        transform.position += new Vector3(horizontalMovement, 0, forwardMovement);
+        // transform.position += new Vector3(horizontalMovement, 0, forwardMovement);
+        transform.position += cam.transform.forward * forwardMovement + cam.transform.right * horizontalMovement;
     }
     void PlayerJumpMovement()
     {

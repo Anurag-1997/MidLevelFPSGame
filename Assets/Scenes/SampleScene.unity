@@ -254,7 +254,9 @@ MonoBehaviour:
   playerSpeed: 0.1
   playerJumpValue: 250
   cam: {fileID: 963194225}
-  mouseSens: 2
+  mouseSens: 4
+  minX: -90
+  maxX: 90
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

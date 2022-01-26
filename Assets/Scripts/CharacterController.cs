@@ -15,6 +15,7 @@ public class CharacterController : MonoBehaviour
     public float mouseSens;
     public float minX = -90.0f;
     public float maxX = 90.0f;
+    
 
     private void Awake()
     {
@@ -26,6 +27,19 @@ public class CharacterController : MonoBehaviour
     {
         camRotation = cam.transform.localRotation;
         playerRotation = transform.localRotation;
+    }
+    private void Update()
+    {
+        if(Input.GetMouseButton(0))
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = false;
+        }
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     // Update is called once per frame

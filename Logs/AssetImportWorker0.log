@@ -15,11 +15,11 @@ C:/Users/engan/OneDrive/Desktop/ANIL SIR CLASS/MidLevelFPSGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55160
+49548
 Successfully changed project path to: C:/Users/engan/OneDrive/Desktop/ANIL SIR CLASS/MidLevelFPSGame
 C:/Users/engan/OneDrive/Desktop/ANIL SIR CLASS/MidLevelFPSGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 199.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.26f1 (6f076387c01d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002680 seconds.
+Registered in 0.001266 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 192.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.955 seconds
+- Completed reload, in  3.301 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2956ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (3302ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1185ms)
-			LoadAssemblies (136ms)
+		EndReloadAssembly (596ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (489ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (532ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (193ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010326 seconds.
+Registered in 0.008058 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.442 seconds
+- Completed reload, in  1.164 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2444ms)
-		BeginReloadAssembly (337ms)
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1975ms)
-			LoadAssemblies (186ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (957ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (743ms)
+			SetupTypeCache (364ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (722ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (162ms)
-				ProcessInitializeOnLoadAttributes (511ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3041 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 113.5 MB.
 System memory in use after: 113.7 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3494.
-Total: 11.113200 ms (FindLiveObjects: 1.065100 ms CreateObjectMapping: 0.422100 ms MarkObjects: 9.445700 ms  DeleteObjects: 0.174500 ms)
+Total: 4.343600 ms (FindLiveObjects: 0.817600 ms CreateObjectMapping: 0.217000 ms MarkObjects: 3.242400 ms  DeleteObjects: 0.063600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,176 +134,312 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/CharacterController.cs
-  artifactKey: Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterController.cs using Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472880be5ee0725588f1173f4159908d') in 0.101770 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.49 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 53.4 MB.
-System memory in use after: 53.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3494.
-Total: 6.106900 ms (FindLiveObjects: 0.384800 ms CreateObjectMapping: 0.175300 ms MarkObjects: 5.513000 ms  DeleteObjects: 0.032000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/Steve/Skin.mat
+  artifactKey: Guid(21ce94fd997b541c88b566b1f9970139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Skin.mat using Guid(21ce94fd997b541c88b566b1f9970139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856dc9610ae257283aab5fbb9622547d') in 0.419804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.786119 seconds.
-  path: Assets/Scripts/CharacterController.cs
-  artifactKey: Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterController.cs using Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe66a95a295f22a1a018cd8008de8523') in 0.038598 seconds 
+  Time since last request: 0.000786 seconds.
+  path: Assets/Steve/Top.mat
+  artifactKey: Guid(4daee89d4a76f401d8a6d0f0c37a2478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Top.mat using Guid(4daee89d4a76f401d8a6d0f0c37a2478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff5352fb38421446e38793c5d91a3d5') in 0.287773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 104.125269 seconds.
-  path: Assets/Scripts/CharacterController.cs
-  artifactKey: Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterController.cs using Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f32959b747dda90adf5eda93c14bccd') in 0.010578 seconds 
+  Time since last request: 0.001648 seconds.
+  path: Assets/Steve/Animations
+  artifactKey: Guid(71462e0494a43443b8f4ae73ff8116e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations using Guid(71462e0494a43443b8f4ae73ff8116e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4586048f608c6c3e49143d8e56b16584') in 0.011557 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.889180 seconds.
-  path: Assets/Scripts/CharacterController.cs
-  artifactKey: Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterController.cs using Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137288de2083e76c67997629acdab379') in 0.010197 seconds 
+  Time since last request: 0.000458 seconds.
+  path: Assets/Steve
+  artifactKey: Guid(a0ec3e4504f154424aa203e692a3f713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve using Guid(a0ec3e4504f154424aa203e692a3f713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8c44c06618cc88bc01bfd57d7663dd') in 0.019994 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.301346 seconds.
-  path: Assets/Scripts/CharacterController.cs
-  artifactKey: Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterController.cs using Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3737150246de17ed30be0a3aa92e27a') in 0.010260 seconds 
+  Time since last request: 0.000392 seconds.
+  path: Assets/Steve/SteveTorsoGood.fbx
+  artifactKey: Guid(6cd62e7ec275344299d095ca308d62ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/SteveTorsoGood.fbx using Guid(6cd62e7ec275344299d095ca308d62ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba3841e372c199529dfd1dbf7818100') in 0.271802 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.030062 seconds.
-  path: Assets/Scripts/CharacterController.cs
-  artifactKey: Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterController.cs using Guid(768c325e0189b9542aba43da166e75bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8686423d175c0a2a89165a0bc9a13d') in 0.009611 seconds 
+  Time since last request: 0.000357 seconds.
+  path: Assets/Steve/Gloves.mat
+  artifactKey: Guid(150bc45463ecf4d9b841c7664e59b293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Gloves.mat using Guid(150bc45463ecf4d9b841c7664e59b293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1053db6722e7c57ba22d263a4305ac50') in 0.029832 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017011 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.179 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2179ms)
-		BeginReloadAssembly (220ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1816ms)
-			LoadAssemblies (209ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (706ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (617ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (470ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.4 MB.
-System memory in use after: 113.6 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3496.
-Total: 7.129600 ms (FindLiveObjects: 0.490300 ms CreateObjectMapping: 0.242200 ms MarkObjects: 6.357500 ms  DeleteObjects: 0.036500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Steve/Steve_FPCharacter.prefab
+  artifactKey: Guid(c356d39725bcc4ec0925ab50a3cf6a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Steve_FPCharacter.prefab using Guid(c356d39725bcc4ec0925ab50a3cf6a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48f3782359e74eb3ffabf4db11ad472') in 0.074069 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012959 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.065 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2066ms)
-		BeginReloadAssembly (209ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1725ms)
-			LoadAssemblies (173ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (695ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (587ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (441ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3035 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.5 MB.
-System memory in use after: 113.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3498.
-Total: 6.691000 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.191800 ms MarkObjects: 6.038000 ms  DeleteObjects: 0.036300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 1.466676 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(d307c752ba576134c8da993102af0850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(d307c752ba576134c8da993102af0850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d30cb1094c689f6995cf14801bddec4') in 0.014011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.760640 seconds.
+  path: Assets/Steve/Animations/Sources
+  artifactKey: Guid(0fa3aa2a2638143cc8161f9eaa8e9246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources using Guid(0fa3aa2a2638143cc8161f9eaa8e9246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1cc7bc80eed1cc225629405e2909a1') in 0.014794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Jump.fbx
+  artifactKey: Guid(ab9a28e69f5864e01886d2c92a34d15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Jump.fbx using Guid(ab9a28e69f5864e01886d2c92a34d15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47b08bd31fbf6d8e019f8930e49056b') in 0.364604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Aiming Idle.fbx
+  artifactKey: Guid(5e157699ba193400aa2f35c8782c7a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Aiming Idle.fbx using Guid(5e157699ba193400aa2f35c8782c7a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069545655ebf1b1fe9582a47d379d953') in 0.011954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Firing Rifle-3.fbx
+  artifactKey: Guid(5c24ccdb9d2ff4f8597f6475ef0b80ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Firing Rifle-3.fbx using Guid(5c24ccdb9d2ff4f8597f6475ef0b80ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7594a4bf79900640bbea43243262f9') in 0.015350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Down To Aim.fbx
+  artifactKey: Guid(46cf9057f81f04de3bb1b6312be4f37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Down To Aim.fbx using Guid(46cf9057f81f04de3bb1b6312be4f37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83245b364984db90f92e350d4940f4d5') in 0.022421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Reload.fbx
+  artifactKey: Guid(1cd7baf9b610746848b8c43f5346fcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Reload.fbx using Guid(1cd7baf9b610746848b8c43f5346fcb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996f8f42710e07685ea4e3df1a881759') in 0.027073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Walk With Rifle.fbx
+  artifactKey: Guid(fe6ba81dea0734a66985014d1c6ac52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Walk With Rifle.fbx using Guid(fe6ba81dea0734a66985014d1c6ac52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20636174449fbe8625d27cca1552ef3a') in 0.030319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Punch.fbx
+  artifactKey: Guid(fdf9ad0f491924de382ec0169949c5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Punch.fbx using Guid(fdf9ad0f491924de382ec0169949c5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b7e63bec5ee0f061f2c620e7903503') in 0.121992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Run.fbx
+  artifactKey: Guid(f1412685647de4a55b09a9312be660d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Run.fbx using Guid(f1412685647de4a55b09a9312be660d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d846039e7a74347dea12b3ce304fc9b') in 0.015662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Stable Sword Outward Slash.fbx
+  artifactKey: Guid(cf75329975da84de7a967e3327b052c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Stable Sword Outward Slash.fbx using Guid(cf75329975da84de7a967e3327b052c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6db5e8ac35437f3a9de4636df5766e9') in 0.021809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Put Back Rifle Behind Shoulder.fbx
+  artifactKey: Guid(567a1eed9d7a44decb7602af07e3d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Put Back Rifle Behind Shoulder.fbx using Guid(567a1eed9d7a44decb7602af07e3d922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d19b9666575a06df0ca3f20d18e605') in 0.162302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Standing Melee Attack Horizontal.fbx
+  artifactKey: Guid(c20611954bd3644bba07208ed5b02230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Standing Melee Attack Horizontal.fbx using Guid(c20611954bd3644bba07208ed5b02230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d533d3660eb5ba7e880e3d96feb426c') in 0.014509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Idle 1.fbx
+  artifactKey: Guid(b33e6da44ee8b4ef59c0e77b32c8e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Idle 1.fbx using Guid(b33e6da44ee8b4ef59c0e77b32c8e82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cc61990a61a28a80c63bd7f3a6776e') in 0.023055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Firing Rifle-2.fbx
+  artifactKey: Guid(8afd265c66d7b4d1f90a39ca7e31a021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Firing Rifle-2.fbx using Guid(8afd265c66d7b4d1f90a39ca7e31a021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172ec5d2f374bdabaa43621e32beef04') in 0.023386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Grab And Put Back Rifle.fbx
+  artifactKey: Guid(a4cd3dfdde2aa47cd8f0467cfd4a3ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Grab And Put Back Rifle.fbx using Guid(a4cd3dfdde2aa47cd8f0467cfd4a3ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21948b388767e6b1e806bed1a082b577') in 0.149824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Reloading.fbx
+  artifactKey: Guid(30d79ad52cff64ce2a9e3eb6fbf0efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Reloading.fbx using Guid(30d79ad52cff64ce2a9e3eb6fbf0efef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395977beb121103f840137366e0185e1') in 0.030815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001202 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Firing Rifle.fbx
+  artifactKey: Guid(ba05a36db151640deac57bab6cb4d3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Firing Rifle.fbx using Guid(ba05a36db151640deac57bab6cb4d3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44c6b23f0b2501b837822f69c549dd8') in 0.033935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000998 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Run 2.fbx
+  artifactKey: Guid(03863b27708984ef68d0ca8e800373ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Run 2.fbx using Guid(03863b27708984ef68d0ca8e800373ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47af23d60dbb1ea842864f7934b681f') in 0.020764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000898 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Punching-2.fbx
+  artifactKey: Guid(2ad86b3c6c56a4cdfb9168670992b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Punching-2.fbx using Guid(2ad86b3c6c56a4cdfb9168670992b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdc4fe90a34772d90c313cc490f1d95') in 0.022646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Grab Rifle From Behind Shoulder.fbx
+  artifactKey: Guid(3adc362a77e2c46b1a7f813bdb48d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Grab Rifle From Behind Shoulder.fbx using Guid(3adc362a77e2c46b1a7f813bdb48d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b459acbe2d078cda621c2860e3cc862b') in 0.136178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Run 1.fbx
+  artifactKey: Guid(6fc6bfda281874e42af66b49a2df9327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Run 1.fbx using Guid(6fc6bfda281874e42af66b49a2df9327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613b4168d32a6575353ea312a8a6a107') in 0.014760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Walk.fbx
+  artifactKey: Guid(43c6f094ca0ec47c997b5eb9a8025838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Walk.fbx using Guid(43c6f094ca0ec47c997b5eb9a8025838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92443c910aee4a7f137aabf21f24587a') in 0.122451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Idle.fbx
+  artifactKey: Guid(37f8ec1ca18e6472496289717a23ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Idle.fbx using Guid(37f8ec1ca18e6472496289717a23ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7d7d628f6d89b2f362369ed5a29ae9') in 0.014184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Steve/Animations/Sources/FuseModel@Rifle Aim To Down.fbx
+  artifactKey: Guid(8f776b8b64e9f45aeb7f53b250ffe154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Sources/FuseModel@Rifle Aim To Down.fbx using Guid(8f776b8b64e9f45aeb7f53b250ffe154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaf9bd2490fb3dbe40a2f3aadb4372b') in 0.022335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.026309 seconds.
+  path: Assets/Steve/Animations/Fire.anim
+  artifactKey: Guid(62029f5bd88714e7e86eba3973ede805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Fire.anim using Guid(62029f5bd88714e7e86eba3973ede805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d2504083652ae3e44852cd879eb509') in 0.035057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.004472 seconds.
+  path: Assets/Steve/Animations/Grab And Put Back Rifle 1.anim
+  artifactKey: Guid(7217278b514e946c6975b50e2c25cc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Grab And Put Back Rifle 1.anim using Guid(7217278b514e946c6975b50e2c25cc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cad648a9535668618e11f8406a6dad') in 0.036330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.145925 seconds.
+  path: Assets/Steve/Animations/Grab And Put Back Rifle.anim
+  artifactKey: Guid(31bf595ce8b104e1d9efa9ecb343c755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Grab And Put Back Rifle.anim using Guid(31bf595ce8b104e1d9efa9ecb343c755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d498e48e1f4047d850910790348481') in 0.022239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.665061 seconds.
+  path: Assets/Steve/Animations/Put Back Rifle Behind Shoulder.anim
+  artifactKey: Guid(bf4b23228784e4055b2c6cfa4db46515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Put Back Rifle Behind Shoulder.anim using Guid(bf4b23228784e4055b2c6cfa4db46515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbd631075ac792f0ed9a57f1a21d15b') in 0.021097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.985439 seconds.
+  path: Assets/Steve/Animations/Reload.anim
+  artifactKey: Guid(f333f2a6ab81140da8bea00a8e3a9a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Reload.anim using Guid(f333f2a6ab81140da8bea00a8e3a9a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b57c75e1c9bf046ca4d9c5685781850') in 0.028187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.677802 seconds.
+  path: Assets/Steve/Animations/Reloading.anim
+  artifactKey: Guid(ebcf7b826984a4361855620fe6ce0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Reloading.anim using Guid(ebcf7b826984a4361855620fe6ce0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53efdd29a0564891438677394bec8f5f') in 0.058550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.405442 seconds.
+  path: Assets/Steve/Animations/Rifle Aim To Down.anim
+  artifactKey: Guid(232ae340b5903406eb22c8843bdcae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Rifle Aim To Down.anim using Guid(232ae340b5903406eb22c8843bdcae16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1cc794fc8fda8a65650af4e15caeea') in 0.019113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.459971 seconds.
+  path: Assets/Steve/Animations/Rifle Aiming Idle.anim
+  artifactKey: Guid(76bcd1b0169944fe5bbb6f13be8dfb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Rifle Aiming Idle.anim using Guid(76bcd1b0169944fe5bbb6f13be8dfb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac84f3c40e500515a1bce1788080723') in 0.021104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.644474 seconds.
+  path: Assets/Steve/Animations/Rifle Down To Aim.anim
+  artifactKey: Guid(eb4cfe1fc209c44c49f8e70d7c94006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Rifle Down To Aim.anim using Guid(eb4cfe1fc209c44c49f8e70d7c94006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528bc3915bdbc7df2413bdd6a4557f6d') in 0.024164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435318 seconds.
+  path: Assets/Steve/Animations/Rifle Idle.anim
+  artifactKey: Guid(03430b5d6a7544022a52c0f9e16f2eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Rifle Idle.anim using Guid(03430b5d6a7544022a52c0f9e16f2eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39cf459d78ca027df4275535324e599') in 0.023843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.414378 seconds.
+  path: Assets/Steve/Animations/Rifle Jump.anim
+  artifactKey: Guid(b52b3d561f9e945198f397542576f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Rifle Jump.anim using Guid(b52b3d561f9e945198f397542576f246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413268de5ed5dfe76e54021e78fbbb32') in 0.026559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.230326 seconds.
+  path: Assets/Steve/Animations/Rifle Punch.anim
+  artifactKey: Guid(958b560b041dd444fb07c3ca341a90d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Rifle Punch.anim using Guid(958b560b041dd444fb07c3ca341a90d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c72e5de9597f2a6f8bce541701923c') in 0.029253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.622950 seconds.
+  path: Assets/Steve/Animations/Rifle Run.anim
+  artifactKey: Guid(9f3024216c15a454d8901ec52a1abb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Rifle Run.anim using Guid(9f3024216c15a454d8901ec52a1abb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677b10dd70c1282c17a12594dcdc36bc') in 0.019474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.612333 seconds.
+  path: Assets/Steve/Animations/Rifle Walk.anim
+  artifactKey: Guid(0d34080fe91934bd69c986114999a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Rifle Walk.anim using Guid(0d34080fe91934bd69c986114999a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12df121c25b0f86f9cc7926a811fa177') in 0.029559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.068060 seconds.
+  path: Assets/Steve/Animations/Run and Fire.anim
+  artifactKey: Guid(404436fbddf4d44c7b28417d26bb5cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Run and Fire.anim using Guid(404436fbddf4d44c7b28417d26bb5cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0240f7ddcb6ca60fc8f82eef3ad52f78') in 0.033790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.814716 seconds.
+  path: Assets/Steve/Animations/Run with Rifle.anim
+  artifactKey: Guid(046fc1bf4c59b4943a1b47c8e2814cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Run with Rifle.anim using Guid(046fc1bf4c59b4943a1b47c8e2814cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30170673c804a7310eeee063835a2490') in 0.023533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.054421 seconds.
+  path: Assets/Steve/Animations/Standing Melee Attack Horizontal.anim
+  artifactKey: Guid(a3861ce82fc004c8d9f1c9bb21e14172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Standing Melee Attack Horizontal.anim using Guid(a3861ce82fc004c8d9f1c9bb21e14172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe170010ff045b1ae9d91f36c07ea572') in 0.047804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.743190 seconds.
+  path: Assets/Steve/Animations/Walk and Fire.anim
+  artifactKey: Guid(9e55df2f31ac3400789bd5f8f5aeee4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Walk and Fire.anim using Guid(9e55df2f31ac3400789bd5f8f5aeee4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4508d85a5adbb8c4f682f6e6daec94f') in 0.028716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.509448 seconds.
+  path: Assets/Steve/Animations/Walk With Rifle.anim
+  artifactKey: Guid(072fdb6b4db7b403eabefa80d15dd465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Steve/Animations/Walk With Rifle.anim using Guid(072fdb6b4db7b403eabefa80d15dd465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca813f62f9bb67d838244961a2a12281') in 0.025251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 968.261278 seconds.
+  path: Assets/PlayerAnimatorController.controller
+  artifactKey: Guid(8bd02ba896c105c42962f9f51f37dbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerAnimatorController.controller using Guid(8bd02ba896c105c42962f9f51f37dbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3c55d0188f0f7cd34941ea74fc1bd6') in 0.019069 seconds 

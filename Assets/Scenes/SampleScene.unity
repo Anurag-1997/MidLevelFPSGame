@@ -257,6 +257,7 @@ MonoBehaviour:
   mouseSens: 4
   minX: -90
   maxX: 90
+  anim: {fileID: 666313797}
 --- !u!1001 &91715730
 PrefabInstance:
   m_ObjectHideFlags: 0

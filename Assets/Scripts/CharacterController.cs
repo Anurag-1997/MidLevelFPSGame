@@ -15,6 +15,7 @@ public class CharacterController : MonoBehaviour
     public float mouseSens;
     public float minX = -90.0f;
     public float maxX = 90.0f;
+    public Animator anim;
     
 
     private void Awake()
@@ -40,6 +41,19 @@ public class CharacterController : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            anim.SetBool("Aiming", !anim.GetBool("Aiming"));
+        }
+        if(Input.GetMouseButtonDown(0))
+        {
+            anim.SetBool("Firing", true);
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            anim.SetBool("Firing", false);
+        }
+
     }
 
     // Update is called once per frame

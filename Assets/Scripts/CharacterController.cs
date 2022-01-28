@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
     public float playerSpeed;
+    public float runSpeed;
     private Rigidbody rb;
     public float playerJumpValue;
     private bool isGrounded;
@@ -47,11 +48,16 @@ public class CharacterController : MonoBehaviour
         }
         if(Input.GetMouseButtonDown(0))
         {
-            anim.SetBool("Firing", true);
+            //anim.SetBool("Firing", true);
+            anim.SetTrigger("Firing");
         }
-        if (Input.GetMouseButtonUp(0))
+        //if (Input.GetMouseButtonUp(0))
+        //{
+        //    //anim.SetBool("Firing", false);
+        //}
+        if(Input.GetKeyDown(KeyCode.R))
         {
-            anim.SetBool("Firing", false);
+            anim.SetTrigger("Reload");
         }
 
     }
@@ -61,6 +67,10 @@ public class CharacterController : MonoBehaviour
     {
         PlayerMovement();
         PlayerJumpMovement();
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            PlayerRunMovement();
+        }
         float mousex = Input.GetAxis("Mouse X") * mouseSens;
         float mousey = Input.GetAxis("Mouse Y") * mouseSens;
         camRotation = camRotation * Quaternion.Euler(-mousey, 0, 0);
@@ -72,6 +82,8 @@ public class CharacterController : MonoBehaviour
 
         
     }
+
+    
 
     Quaternion ClampRotationOnXaxis(Quaternion value)
     {
@@ -106,7 +118,54 @@ public class CharacterController : MonoBehaviour
         float forwardMovement = Input.GetAxis("Vertical") * playerSpeed;
         // transform.position += new Vector3(horizontalMovement, 0, forwardMovement);
         transform.position += cam.transform.forward * forwardMovement + cam.transform.right * horizontalMovement;
+        if(horizontalMovement!=0||forwardMovement!=0)
+        {
+            anim.SetBool("walkrifle", true);
+            if(Input.GetMouseButtonDown(0))
+            {
+                anim.SetTrigger("walkfire");
+            }
+        }
+        else
+        {
+            anim.SetBool("walkrifle", false);
+        }
+        
     }
+    void PlayerRunMovement()
+    {
+        float horizontalMovement = Input.GetAxis("Horizontal") * runSpeed;
+        float forwardMovement = Input.GetAxis("Vertical") * runSpeed;
+        // transform.position += new Vector3(horizontalMovement, 0, forwardMovement);
+        transform.position += cam.transform.forward * forwardMovement + cam.transform.right * horizontalMovement;
+        if (horizontalMovement != 0 || forwardMovement != 0)
+        {
+            anim.SetBool("runrifle", true);
+            if(Input.GetMouseButtonDown(0))
+            {
+                anim.SetTrigger("runfire");
+            }
+        }
+        else
+        {
+            anim.SetBool("runrifle", false);
+        }
+
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag=="Ammo")
+        {
+            print("Ammo Collected");
+            Destroy(collision.gameObject);
+        }
+        else if(collision.gameObject.tag=="MedBox")
+        {
+            print("MedBox Collected");
+            Destroy(collision.gameObject);
+        }
+    }
+
     void PlayerJumpMovement()
     {
         if (Input.GetKeyDown(KeyCode.Space) && PlayerGrounded()) 

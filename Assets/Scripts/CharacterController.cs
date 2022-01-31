@@ -42,7 +42,7 @@ public class CharacterController : MonoBehaviour
     }
     private void Update()
     {
-        if(Input.GetMouseButton(0))
+        if(Input.GetMouseButtonDown(1))
         {
             Cursor.lockState = CursorLockMode.Confined;
             Cursor.visible = false;
@@ -186,6 +186,14 @@ public class CharacterController : MonoBehaviour
             health = Mathf.Clamp(health+ 5, 0, maxHealthPickUp);
             MedBoxAudio.Play();
             Destroy(collision.gameObject);
+            Debug.Log("Health : " + health);
+        }
+        else if(collision.gameObject.tag=="Lava")
+        {
+            //health = health - 5;
+            //player death when health reaches zero we need to apply.
+            health = Mathf.Clamp(health - 5, 0, maxHealthPickUp);
+            print("Health : " + health);
         }
     }
 

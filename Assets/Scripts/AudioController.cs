@@ -5,6 +5,7 @@ using UnityEngine;
 public class AudioController : MonoBehaviour
 {
     public AudioSource fireSound;
+    public AudioSource reloadSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,10 @@ public class AudioController : MonoBehaviour
     void Update()
     {
         
+    }
+    public void SoundOfReload()
+    {
+        reloadSound.Play();
     }
     public void SoundOfFire()
     {

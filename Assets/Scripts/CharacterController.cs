@@ -17,6 +17,12 @@ public class CharacterController : MonoBehaviour
     public float minX = -90.0f;
     public float maxX = 90.0f;
     public Animator anim;
+    public AudioSource MedBoxAudio;
+    public AudioSource AmmoBoxAudio;
+
+    //Inventory Section
+    private int ammoPickUp = 0;
+    private int maxAmmoPickUp = 15;
     
 
     private void Awake()
@@ -154,14 +160,19 @@ public class CharacterController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag=="Ammo")
+        if (collision.gameObject.tag == "Ammo" && ammoPickUp < maxAmmoPickUp) 
         {
             print("Ammo Collected");
+            //ammoPickUp += 5;
+            ammoPickUp = Mathf.Clamp(ammoPickUp + 5, 0, maxAmmoPickUp);
+            AmmoBoxAudio.Play();
             Destroy(collision.gameObject);
+            Debug.Log("ammoPickUp = " + ammoPickUp);
         }
         else if(collision.gameObject.tag=="MedBox")
         {
             print("MedBox Collected");
+            MedBoxAudio.Play();
             Destroy(collision.gameObject);
         }
     }

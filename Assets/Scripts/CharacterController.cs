@@ -21,9 +21,9 @@ public class CharacterController : MonoBehaviour
     public AudioSource AmmoBoxAudio;
 
     //Inventory Section
-    private int ammoPickUp = 0;
+    private int ammo = 0;
     private int maxAmmoPickUp = 15;
-    private int healthPickUp = 0;
+    private int health = 0;
     private int maxHealthPickUp = 15;
     
 
@@ -35,7 +35,8 @@ public class CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        healthPickUp = maxHealthPickUp;
+        health = maxHealthPickUp;
+        ammo = maxAmmoPickUp;
         camRotation = cam.transform.localRotation;
         playerRotation = transform.localRotation;
     }
@@ -55,10 +56,17 @@ public class CharacterController : MonoBehaviour
         {
             anim.SetBool("Aiming", !anim.GetBool("Aiming"));
         }
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && !anim.GetBool("Firing"))
         {
-            //anim.SetBool("Firing", true);
-            anim.SetTrigger("Firing");
+            if(ammo>0)
+            {
+                ammo = Mathf.Clamp(ammo - 1, 0, maxAmmoPickUp);
+                //ammo--;
+                Debug.Log("ammo left : " + ammo);
+                //anim.SetBool("Firing", true);
+                anim.SetTrigger("Firing");
+            }
+            
         }
         //if (Input.GetMouseButtonUp(0))
         //{
@@ -163,19 +171,19 @@ public class CharacterController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ammo" && ammoPickUp < maxAmmoPickUp)
+        if (collision.gameObject.tag == "Ammo" && ammo < maxAmmoPickUp)
         {
             print("Ammo Collected");
             //ammoPickUp += 5;
-            ammoPickUp = Mathf.Clamp(ammoPickUp + 5, 0, maxAmmoPickUp);
+            ammo = Mathf.Clamp(ammo + 5, 0, maxAmmoPickUp);
             AmmoBoxAudio.Play();
             Destroy(collision.gameObject);
-            Debug.Log("ammoPickUp = " + ammoPickUp);
+            Debug.Log("ammoPickUp = " + ammo);
         }
-        else if (collision.gameObject.tag == "MedBox" && healthPickUp < maxHealthPickUp) 
+        else if (collision.gameObject.tag == "MedBox" && health < maxHealthPickUp) 
         {
             print("MedBox Collected");
-            healthPickUp = Mathf.Clamp(healthPickUp + 5, 0, maxHealthPickUp);
+            health = Mathf.Clamp(health+ 5, 0, maxHealthPickUp);
             MedBoxAudio.Play();
             Destroy(collision.gameObject);
         }

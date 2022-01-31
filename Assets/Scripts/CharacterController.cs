@@ -23,6 +23,8 @@ public class CharacterController : MonoBehaviour
     //Inventory Section
     private int ammoPickUp = 0;
     private int maxAmmoPickUp = 15;
+    private int healthPickUp = 0;
+    private int maxHealthPickUp = 15;
     
 
     private void Awake()
@@ -33,6 +35,7 @@ public class CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        healthPickUp = maxHealthPickUp;
         camRotation = cam.transform.localRotation;
         playerRotation = transform.localRotation;
     }
@@ -160,7 +163,7 @@ public class CharacterController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ammo" && ammoPickUp < maxAmmoPickUp) 
+        if (collision.gameObject.tag == "Ammo" && ammoPickUp < maxAmmoPickUp)
         {
             print("Ammo Collected");
             //ammoPickUp += 5;
@@ -169,9 +172,10 @@ public class CharacterController : MonoBehaviour
             Destroy(collision.gameObject);
             Debug.Log("ammoPickUp = " + ammoPickUp);
         }
-        else if(collision.gameObject.tag=="MedBox")
+        else if (collision.gameObject.tag == "MedBox" && healthPickUp < maxHealthPickUp) 
         {
             print("MedBox Collected");
+            healthPickUp = Mathf.Clamp(healthPickUp + 5, 0, maxHealthPickUp);
             MedBoxAudio.Play();
             Destroy(collision.gameObject);
         }

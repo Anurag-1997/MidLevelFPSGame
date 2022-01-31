@@ -22,9 +22,9 @@ public class CharacterController : MonoBehaviour
 
     //Inventory Section
     private int ammo = 0;
-    private int maxAmmoPickUp = 15;
+    private int maxAmmo = 15;
     private int health = 0;
-    private int maxHealthPickUp = 15;
+    private int maxHealth = 15;
     
 
     private void Awake()
@@ -35,8 +35,8 @@ public class CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        health = maxHealthPickUp;
-        ammo = maxAmmoPickUp;
+        health = maxHealth;
+        ammo = maxAmmo;
         camRotation = cam.transform.localRotation;
         playerRotation = transform.localRotation;
     }
@@ -60,7 +60,7 @@ public class CharacterController : MonoBehaviour
         {
             if(ammo>0)
             {
-                ammo = Mathf.Clamp(ammo - 1, 0, maxAmmoPickUp);
+                ammo = Mathf.Clamp(ammo - 1, 0, maxAmmo);
                 //ammo--;
                 Debug.Log("ammo left : " + ammo);
                 //anim.SetBool("Firing", true);
@@ -75,6 +75,18 @@ public class CharacterController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.R))
         {
             anim.SetTrigger("Reload");
+            int ammoNeeded = maxAmmo - ammo;
+            print("ammo needed : " + ammoNeeded);
+            if(ammoNeeded<ammo)
+            {
+                ammo = ammo + ammoNeeded;
+                print("current ammo : "+ammo);
+            }
+            else if(ammoNeeded>ammo)
+            {
+                ammo = ammo + ammoNeeded;
+                print("current ammo : " + ammo);
+            }
         }
 
     }
@@ -171,19 +183,19 @@ public class CharacterController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ammo" && ammo < maxAmmoPickUp)
+        if (collision.gameObject.tag == "Ammo" && ammo < maxAmmo)
         {
             print("Ammo Collected");
             //ammoPickUp += 5;
-            ammo = Mathf.Clamp(ammo + 5, 0, maxAmmoPickUp);
+            ammo = Mathf.Clamp(ammo + 5, 0, maxAmmo);
             AmmoBoxAudio.Play();
             Destroy(collision.gameObject);
             Debug.Log("ammoPickUp = " + ammo);
         }
-        else if (collision.gameObject.tag == "MedBox" && health < maxHealthPickUp) 
+        else if (collision.gameObject.tag == "MedBox" && health < maxHealth) 
         {
             print("MedBox Collected");
-            health = Mathf.Clamp(health+ 5, 0, maxHealthPickUp);
+            health = Mathf.Clamp(health+ 5, 0, maxHealth);
             MedBoxAudio.Play();
             Destroy(collision.gameObject);
             Debug.Log("Health : " + health);
@@ -192,7 +204,8 @@ public class CharacterController : MonoBehaviour
         {
             //health = health - 5;
             //player death when health reaches zero we need to apply.
-            health = Mathf.Clamp(health - 5, 0, maxHealthPickUp);
+            //player death sound needs to be applied
+            health = Mathf.Clamp(health - 5, 0, maxHealth);
             print("Health : " + health);
         }
     }

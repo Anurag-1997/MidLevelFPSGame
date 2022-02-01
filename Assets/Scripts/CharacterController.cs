@@ -19,9 +19,11 @@ public class CharacterController : MonoBehaviour
     public Animator anim;
     public AudioSource MedBoxAudio;
     public AudioSource AmmoBoxAudio;
+    public AudioSource playerDeathAudio;
 
     //Inventory Section
     private int ammo = 0;
+    private int reserveAmmo = 0;
     private int maxAmmo = 15;
     private int health = 0;
     private int maxHealth = 15;
@@ -74,18 +76,41 @@ public class CharacterController : MonoBehaviour
         //}
         if(Input.GetKeyDown(KeyCode.R))
         {
-            anim.SetTrigger("Reload");
+            //anim.SetTrigger("Reload");
             int ammoNeeded = maxAmmo - ammo;
             print("ammo needed : " + ammoNeeded);
-            if(ammoNeeded<ammo)
+            print("Reserve ammo : " + reserveAmmo);
+            //if(ammoNeeded<ammo)
+            //{
+            //    ammo = ammo + ammoNeeded;
+            //    print("current ammo : "+ammo);
+            //}
+            //else if(ammoNeeded>ammo)
+            //{
+            //    ammo = ammo + ammoNeeded;
+            //    print("current ammo : " + ammo);
+            //}
+            if(ammoNeeded<5 && ammoNeeded>0)
             {
-                ammo = ammo + ammoNeeded;
-                print("current ammo : "+ammo);
+                if (reserveAmmo > 0 && reserveAmmo >= ammoNeeded)
+                {
+                    anim.SetTrigger("Reload");
+                    reserveAmmo = reserveAmmo - ammoNeeded;
+                    ammo = ammo + ammoNeeded;
+                }
+                else if (reserveAmmo > 0 && reserveAmmo < ammoNeeded) 
+                {
+                    anim.SetTrigger("Reload");
+                    ammo = ammo + reserveAmmo;
+                    reserveAmmo = reserveAmmo - reserveAmmo;
+                }
+                
             }
-            else if(ammoNeeded>ammo)
+            else if(ammoNeeded>=5)
             {
-                ammo = ammo + ammoNeeded;
-                print("current ammo : " + ammo);
+                anim.SetTrigger("Reload");
+                reserveAmmo = reserveAmmo - 5;
+                ammo = ammo + 5;
             }
         }
 
@@ -183,14 +208,15 @@ public class CharacterController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ammo" && ammo < maxAmmo)
+        if (collision.gameObject.tag == "Ammo" && reserveAmmo < maxAmmo)
         {
             print("Ammo Collected");
             //ammoPickUp += 5;
-            ammo = Mathf.Clamp(ammo + 5, 0, maxAmmo);
+            //ammo = Mathf.Clamp(ammo + 5, 0, maxAmmo);
+            reserveAmmo = Mathf.Clamp(reserveAmmo + 5, 0, maxAmmo);
             AmmoBoxAudio.Play();
             Destroy(collision.gameObject);
-            Debug.Log("ammoPickUp = " + ammo);
+            Debug.Log("reserveAmmo = " + reserveAmmo);
         }
         else if (collision.gameObject.tag == "MedBox" && health < maxHealth) 
         {
@@ -206,6 +232,10 @@ public class CharacterController : MonoBehaviour
             //player death when health reaches zero we need to apply.
             //player death sound needs to be applied
             health = Mathf.Clamp(health - 5, 0, maxHealth);
+            if (health == 0) 
+            {
+                playerDeathAudio.Play();
+            }
             print("Health : " + health);
         }
     }

@@ -368,3 +368,1002 @@ Received Import Request.
   path: Assets/Scenes/Zombies.unity
   artifactKey: Guid(084e706a8f898d445a286ffa050b6b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Zombies.unity using Guid(084e706a8f898d445a286ffa050b6b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41aa12655a9010d72c06affe60755b8') in 0.027582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 587.749717 seconds.
+  path: Assets/Zombies
+  artifactKey: Guid(599f8614b6ba0d649a7fee0cf06c4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies using Guid(599f8614b6ba0d649a7fee0cf06c4b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e7d428aecdeaf63c3f42b55e304270') in 0.040150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.739297 seconds.
+  path: Assets/Zombies/Zombies.unitypackage
+  artifactKey: Guid(c404e62017eb0bd4894fd4e8f53de6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Zombies.unitypackage using Guid(c404e62017eb0bd4894fd4e8f53de6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f41622238de0a3ffe23c64028de42c') in 0.030886 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018910 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2238ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1850ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (775ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (602ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (457ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3632.
+Total: 6.852200 ms (FindLiveObjects: 0.482400 ms CreateObjectMapping: 0.226500 ms MarkObjects: 6.095000 ms  DeleteObjects: 0.045600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 192.179572 seconds.
+  path: Assets/Zombies/jill.prefab
+  artifactKey: Guid(b7dd32307aa7f43bf98270b4b8b91c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/jill.prefab using Guid(b7dd32307aa7f43bf98270b4b8b91c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdea9f1eb3500649871937734a5f1ba') in 0.570518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Zombies/zombiegirl.prefab
+  artifactKey: Guid(7912ec467aa9147a59e49b3925ad126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/zombiegirl.prefab using Guid(7912ec467aa9147a59e49b3925ad126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54cff99628a77a056f9100907d3e1e0') in 0.063477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Zombies/boss.prefab
+  artifactKey: Guid(d5b7cf80f1fab4ea0bd49a0e878214fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/boss.prefab using Guid(d5b7cf80f1fab4ea0bd49a0e878214fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ad626a47daefc0202a11e607bc561a') in 0.269886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Zombies/zombieman.prefab
+  artifactKey: Guid(6a1d6fe89cd7e4fe486e4cabf09b8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/zombieman.prefab using Guid(6a1d6fe89cd7e4fe486e4cabf09b8d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b209b6640a61c046c15c0aaf801d75') in 0.054694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.784430 seconds.
+  path: Assets/Zombies/ZombieController.cs
+  artifactKey: Guid(eec9c05e03277468cac8631ea3ac0fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieController.cs using Guid(eec9c05e03277468cac8631ea3ac0fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fe7d002e9311a2e3efd2ac135c8102') in 0.036321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.665063 seconds.
+  path: Assets/Zombies/ZombieGirl
+  artifactKey: Guid(1176025f5759b4b2da14f24fe315ef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl using Guid(1176025f5759b4b2da14f24fe315ef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3620ec6fe8c8dfd8a6205a3a0d5643d3') in 0.019352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.165187 seconds.
+  path: Assets/Zombies/ZombieGirl/zombie attack.fbx
+  artifactKey: Guid(a0f3318bc05c2445794d349ba99c8a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombie attack.fbx using Guid(a0f3318bc05c2445794d349ba99c8a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e78b12c341cc89d39300b60ba02fee2') in 0.107447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Zombies/ZombieGirl/ZombieGirl_Material.mat
+  artifactKey: Guid(41c61104167c74248a28804dad59551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/ZombieGirl_Material.mat using Guid(41c61104167c74248a28804dad59551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbf8da8d328dcbc4938b5b798c52726') in 0.112843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Zombies/ZombieGirl/zombie_normal.png
+  artifactKey: Guid(ac3e5659c475c47e2b3ffda85d00d5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombie_normal.png using Guid(ac3e5659c475c47e2b3ffda85d00d5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9988012fcdce14520e506fbe1ec81675') in 0.106012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Zombies/ZombieGirl/zombiegirl_w_kurniawan@Walking.fbx
+  artifactKey: Guid(edfcacca27a72412d99444ebc56c1cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombiegirl_w_kurniawan@Walking.fbx using Guid(edfcacca27a72412d99444ebc56c1cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7331125536cc411a0d72fc76f69a81') in 0.246901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Zombies/ZombieGirl/zombie_specular.png
+  artifactKey: Guid(ca29ddc21227640c7bf57c6330a94475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombie_specular.png using Guid(ca29ddc21227640c7bf57c6330a94475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b27b32e07de4302c1b6e1cc8973b8e4') in 0.044493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000806 seconds.
+  path: Assets/Zombies/ZombieGirl/zombie dying.fbx
+  artifactKey: Guid(abd85d8ce16a549bba831532007e3b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombie dying.fbx using Guid(abd85d8ce16a549bba831532007e3b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fc03ac8064c22eadc39bb3275a8f6d') in 0.039076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Zombies/ZombieGirl/zombiegirl_w_kurniawan.fbx
+  artifactKey: Guid(32861a32179e44cd591c60fd17784ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombiegirl_w_kurniawan.fbx using Guid(32861a32179e44cd591c60fd17784ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff7fd710598e86dc840eb5af6006abf') in 0.150107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Zombies/ZombieGirl/zombie idle.fbx
+  artifactKey: Guid(335d7853bbe78485aa1cd131876c5442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombie idle.fbx using Guid(335d7853bbe78485aa1cd131876c5442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ff4b86e432a452047fee4dacf09db9') in 0.035798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Zombies/ZombieGirl/zombie_diffuse.png
+  artifactKey: Guid(1cfb85c7f88d943a8af83613f0cad609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombie_diffuse.png using Guid(1cfb85c7f88d943a8af83613f0cad609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3800e3f963875b47aa56d4b9755815f') in 0.050765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001142 seconds.
+  path: Assets/Zombies/ZombieGirl/zombiegirl_w_kurniawan@Zombie Running.fbx
+  artifactKey: Guid(d7a6ac7f7f6054c4e89c669e2ba3d021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/zombiegirl_w_kurniawan@Zombie Running.fbx using Guid(d7a6ac7f7f6054c4e89c669e2ba3d021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd7e05229e4b23b314ea4e382d9a635') in 0.126548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.240182 seconds.
+  path: Assets/Zombies/ZombieGirl/GirlAnimation.controller
+  artifactKey: Guid(6940c81fe7d954eb1a2c627dbf4824d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/GirlAnimation.controller using Guid(6940c81fe7d954eb1a2c627dbf4824d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76db68f21c8b19973d4f0fa182d1baed') in 0.039364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.265951 seconds.
+  path: Assets/Zombies/ZombieGirl/ZombieGirlAnimController.controller
+  artifactKey: Guid(3f9eafea164272b4a95abb1c33d5fa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/ZombieGirlAnimController.controller using Guid(3f9eafea164272b4a95abb1c33d5fa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f193b597dcd686f4edeac5cd67d99af') in 0.024741 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012595 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.600 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2601ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2250ms)
+			LoadAssemblies (222ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (780ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (701ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (528ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3041 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.5 MB.
+System memory in use after: 167.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3718.
+Total: 10.064100 ms (FindLiveObjects: 0.944800 ms CreateObjectMapping: 0.425800 ms MarkObjects: 8.642100 ms  DeleteObjects: 0.046800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109.110256 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack
+  artifactKey: Guid(6478d31d9351042be9483f907f848c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack using Guid(6478d31d9351042be9483f907f848c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de2f1ff8805eec3a91fcf8d72f49d42') in 0.048071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022801 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/running crawl.fbx
+  artifactKey: Guid(1e7515001ef3f4f0b9fbbc6ac57f027c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/running crawl.fbx using Guid(1e7515001ef3f4f0b9fbbc6ac57f027c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63538d89573c2fce44ba3d496a7ea54') in 0.071329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie dying.fbx
+  artifactKey: Guid(4a28abe9dc2fb4bb1959c3ab9beb9114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie dying.fbx using Guid(4a28abe9dc2fb4bb1959c3ab9beb9114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c001f3b659549658128b90379f31c6') in 0.035119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Pointing.fbx
+  artifactKey: Guid(a4cfce871ed9342d9a20a707c6088f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Pointing.fbx using Guid(a4cfce871ed9342d9a20a707c6088f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c492172c615880c8d582edd09227dd1b') in 0.037534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Pointing 1.fbx
+  artifactKey: Guid(281bee499e97c4f08b590a089028d93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Pointing 1.fbx using Guid(281bee499e97c4f08b590a089028d93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347188f4fcc68779d71a18bdeaa6ad8d') in 0.036678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Zombie Idle.fbx
+  artifactKey: Guid(f2af6bcf52c894c00ab77bb665f0fa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Zombie Idle.fbx using Guid(f2af6bcf52c894c00ab77bb665f0fa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ce944eee0d74788c440002273484ab') in 0.033007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000803 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie death.fbx
+  artifactKey: Guid(e3c83c38e6e0843bc9679d72ecb81d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie death.fbx using Guid(e3c83c38e6e0843bc9679d72ecb81d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05284a348e97f14189429dd82ee8b55a') in 0.033869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie crawl.fbx
+  artifactKey: Guid(8a061913109c4494f8a85f9988e63574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie crawl.fbx using Guid(8a061913109c4494f8a85f9988e63574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62481090bff1a0837110b3de9ffc3e5') in 0.032606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie run.fbx
+  artifactKey: Guid(581bdafb30ee2427c9112e6918a76c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie run.fbx using Guid(581bdafb30ee2427c9112e6918a76c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63217c94c64aa586f244d49d37fc54ca') in 0.033099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie walk.fbx
+  artifactKey: Guid(7d222d3141a914f41a440c27b776f5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie walk.fbx using Guid(7d222d3141a914f41a440c27b776f5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8844884525b11eb71c43725044ebc58') in 0.034807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbx
+  artifactKey: Guid(eb2dfb06ec14440ba818067726d80323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbx using Guid(eb2dfb06ec14440ba818067726d80323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e010d268d7f5cd3250abdd4aeb9411') in 0.455828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001615 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbx
+  artifactKey: Guid(9cac55eb0a244464593bcf74f728d7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbx using Guid(9cac55eb0a244464593bcf74f728d7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b91401a89c377ecc55bc753efd8a59b') in 0.145158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie neck bite.fbx
+  artifactKey: Guid(4d60bc7d6354b45019eb1a8f4fd64bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie neck bite.fbx using Guid(4d60bc7d6354b45019eb1a8f4fd64bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf06be91c98d3242e3e7f8c4c54555b') in 0.027711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie attack.fbx
+  artifactKey: Guid(dec41b6eb657440559ae595d06ee9ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie attack.fbx using Guid(dec41b6eb657440559ae595d06ee9ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b7ef812149333a1869cdc7cdf3d7f1') in 0.018276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000824 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie biting.fbx
+  artifactKey: Guid(726d9b8922987420d954bd7d0346d832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie biting.fbx using Guid(726d9b8922987420d954bd7d0346d832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acce60ca78fba45245662236ef3c0255') in 0.027208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie scream.fbx
+  artifactKey: Guid(0ea4ad7e3b03a422c83677fd4af2dfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie scream.fbx using Guid(0ea4ad7e3b03a422c83677fd4af2dfa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3641e516dab1d63c57a2dcf30d323a') in 0.033363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie idle.fbx
+  artifactKey: Guid(aa5ad12c18fc24a838652211e81d7364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombie idle.fbx using Guid(aa5ad12c18fc24a838652211e81d7364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a896ccad9e9d7192d40974210d61292') in 0.017839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001120 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Pointing Gesture.fbx
+  artifactKey: Guid(b1b9263f3e2b94bd4b266b92a3a78790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Pointing Gesture.fbx using Guid(b1b9263f3e2b94bd4b266b92a3a78790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff5ba8bcfa0ed81941e1b006f52bdb2') in 0.039725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbx
+  artifactKey: Guid(69322fb4af06145cba2a38cd779785c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbx using Guid(69322fb4af06145cba2a38cd779785c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa841bb98d5c9c0207c3abf6d7c91ff4') in 0.129412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.452135 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbm
+  artifactKey: Guid(e553d8d56b857498abbe01513afadcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbm using Guid(e553d8d56b857498abbe01513afadcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b330d4ce87a721e0bf468ba0af3b58') in 0.023307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.171783 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbm
+  artifactKey: Guid(fa1d17cced4be471199abf5b732e5bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbm using Guid(fa1d17cced4be471199abf5b732e5bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5644f32790241be2a4d8569635ce92a9') in 0.022046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.695247 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbm
+  artifactKey: Guid(31eacf664dc5446d6942a28de754cf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbm using Guid(31eacf664dc5446d6942a28de754cf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d242ae0753a80869dd3f8c6425aae3') in 0.020009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.528569 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbm/zombie_diffuse.png
+  artifactKey: Guid(44ad16a31c471449aa504b4a04faa8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbm/zombie_diffuse.png using Guid(44ad16a31c471449aa504b4a04faa8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5662ae86e0d019fedc0dd34dd4ea16') in 0.044327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbm/zombie_specular.png
+  artifactKey: Guid(3de3703bf0128452a9ffbbac1ede672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbm/zombie_specular.png using Guid(3de3703bf0128452a9ffbbac1ede672c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920a80447b1ac697bbfaf2ef3c24a864') in 0.034059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbm/zombie_normal.png
+  artifactKey: Guid(2dff60e7864e141df93fcc999d95db27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Walking.fbm/zombie_normal.png using Guid(2dff60e7864e141df93fcc999d95db27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfee43ebb44785ea4351d8e2709150df') in 0.050125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.562418 seconds.
+  path: Assets/Zombies/ZombieMan
+  artifactKey: Guid(651eb4ef0d4024f5b84c4903f128d2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan using Guid(651eb4ef0d4024f5b84c4903f128d2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e360487660629f60dce19e3f96271353') in 0.022986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059260 seconds.
+  path: Assets/Zombies/ZombieMan/zombie dying.fbx
+  artifactKey: Guid(cb333a34a5fda4d2694e2bde40765c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/zombie dying.fbx using Guid(cb333a34a5fda4d2694e2bde40765c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f969fc72b467fa2e782cb7b22475457') in 0.031410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/Zombies/ZombieMan/Zombie_normal.png
+  artifactKey: Guid(5a77e83353bdc48d4a8fc01bb422d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/Zombie_normal.png using Guid(5a77e83353bdc48d4a8fc01bb422d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bbf00a5de1d27e15272a9ad2b846b2') in 0.044181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Zombies/ZombieMan/zombie@Walking.fbx
+  artifactKey: Guid(56ebebbeccd444d909397e928be715d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/zombie@Walking.fbx using Guid(56ebebbeccd444d909397e928be715d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b8bb2aa56f0f45278db6fec0463807') in 0.128177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Zombies/ZombieMan/zombie@Zombie Attack.fbx
+  artifactKey: Guid(752ddc7c0ccc048279b10966ad9b1085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/zombie@Zombie Attack.fbx using Guid(752ddc7c0ccc048279b10966ad9b1085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca152dd4748cb290a2e9db13e7ffb9d1') in 0.091362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Zombies/ZombieMan/zombie@Zombie Idle.fbx
+  artifactKey: Guid(eddf026c21d9b47cc86318c511db1516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/zombie@Zombie Idle.fbx using Guid(eddf026c21d9b47cc86318c511db1516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bb49a513f2e5050bbdf8a418f61306') in 0.104431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Zombies/ZombieMan/Zombie_COL.mat
+  artifactKey: Guid(292f00a8348d64795865badd5b956cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/Zombie_COL.mat using Guid(292f00a8348d64795865badd5b956cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb66a1b138ee3606c10319904fd9dcc') in 0.070542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Zombies/ZombieMan/Zombie_diffuse.png
+  artifactKey: Guid(98b60269167694ff09770d848008f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/Zombie_diffuse.png using Guid(98b60269167694ff09770d848008f176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c44df646fce3c0afb9e35a9408213c') in 0.053114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Zombies/ZombieMan/Zombie_specular.png
+  artifactKey: Guid(7297af6d458744bf1b97c162f7d08759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/Zombie_specular.png using Guid(7297af6d458744bf1b97c162f7d08759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00625168f437fbc61c23bffbadf74ad2') in 0.046591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Zombies/ZombieMan/zombie@Zombie Running.fbx
+  artifactKey: Guid(b9600309e50c24c32b3c819af1e93311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/zombie@Zombie Running.fbx using Guid(b9600309e50c24c32b3c819af1e93311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d6cb6d821202038566bf6d44b0f2a7') in 0.113750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Zombies/ZombieMan/zombie.fbx
+  artifactKey: Guid(4e8f05cdfc3814ac9bd04c5baae12e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieMan/zombie.fbx using Guid(4e8f05cdfc3814ac9bd04c5baae12e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40cd9709fbe9d1871bc2469c18f4666') in 0.093586 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.057445 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.378 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2379ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2015ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (726ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (683ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (531ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3044 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.2 MB.
+System memory in use after: 192.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3812.
+Total: 6.778400 ms (FindLiveObjects: 0.547200 ms CreateObjectMapping: 0.258500 ms MarkObjects: 5.926700 ms  DeleteObjects: 0.042900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010381 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.312 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2313ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (1887ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (717ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (669ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.0 MB.
+System memory in use after: 192.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3814.
+Total: 7.884300 ms (FindLiveObjects: 0.640800 ms CreateObjectMapping: 0.200900 ms MarkObjects: 6.997200 ms  DeleteObjects: 0.041600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010731 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2118ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1777ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (691ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (613ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.0 MB.
+System memory in use after: 192.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3816.
+Total: 6.961200 ms (FindLiveObjects: 0.685400 ms CreateObjectMapping: 0.216000 ms MarkObjects: 6.020000 ms  DeleteObjects: 0.035500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 590.354868 seconds.
+  path: Assets/Zombies/Boss/BossAnimator.controller
+  artifactKey: Guid(013cd344e9aa348668e1de23fb6665d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/BossAnimator.controller using Guid(013cd344e9aa348668e1de23fb6665d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd456eeca4cdb567bfbbee1f7d609e0') in 0.062656 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015944 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2274ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (1894ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (742ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (632ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.1 MB.
+System memory in use after: 192.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3818.
+Total: 7.166500 ms (FindLiveObjects: 0.536800 ms CreateObjectMapping: 0.218300 ms MarkObjects: 6.374200 ms  DeleteObjects: 0.034000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.782488 seconds.
+  path: Assets/Scenes/TerrainSceme.unity
+  artifactKey: Guid(1499c53a26967174d9e4d277f61c3bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TerrainSceme.unity using Guid(1499c53a26967174d9e4d277f61c3bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ef7b1ee384005ad954e0173397d39b') in 0.073058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.656833 seconds.
+  path: Assets/Zombies/Jill/jill@Zombie Run.fbx
+  artifactKey: Guid(81e9a2f16b13a4191a0396e245ca54b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Jill/jill@Zombie Run.fbx using Guid(81e9a2f16b13a4191a0396e245ca54b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e01203e91907bc6393ba8b5ff76653d') in 0.418889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Zombies/Boss/skeletonzombie_t_avelange@Walking.fbx
+  artifactKey: Guid(49dd8138992214baaa3e7d25242fbf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonzombie_t_avelange@Walking.fbx using Guid(49dd8138992214baaa3e7d25242fbf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae77b110eb650d50097adc4e4f0d28e') in 0.331519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Zombies/Jill/zombie attack.fbx
+  artifactKey: Guid(560dd9256ad3c427a905051b71c412c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Jill/zombie attack.fbx using Guid(560dd9256ad3c427a905051b71c412c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6ab8f820ec285e03bad88af4031d2c') in 0.022441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001017 seconds.
+  path: Assets/Zombies/Boss/skeletonZombie_Material.mat
+  artifactKey: Guid(a23b1c7f19917418aaf5e541cb9b0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonZombie_Material.mat using Guid(a23b1c7f19917418aaf5e541cb9b0701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0684b79230b78209ad24b757f84952') in 0.083167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Zombies/Boss/skeletonzombie_t_avelange@Zombie Scratch Idle.fbx
+  artifactKey: Guid(8df3a54013ad64e6b825d43ef27efca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonzombie_t_avelange@Zombie Scratch Idle.fbx using Guid(8df3a54013ad64e6b825d43ef27efca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f49342503542cb016a43b77a0f43b13') in 0.122439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000830 seconds.
+  path: Assets/Zombies/Boss/skeletonZombie_diffuse.png
+  artifactKey: Guid(fa8de1be95e5948e29cc181e05333fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonZombie_diffuse.png using Guid(fa8de1be95e5948e29cc181e05333fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a6c89add2c24d42134ba1eff0186fd') in 0.068256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000793 seconds.
+  path: Assets/Zombies/Boss/skeletonZombie_specular.png
+  artifactKey: Guid(4612cc96cca134f91ab4a8ed88742e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonZombie_specular.png using Guid(4612cc96cca134f91ab4a8ed88742e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5395e25c1f1273ab53fef279482b569e') in 0.047373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Zombies/Boss/skeletonZombie_glow.png
+  artifactKey: Guid(79492e72a12a948eeb8f3343b6f75324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonZombie_glow.png using Guid(79492e72a12a948eeb8f3343b6f75324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5284f101a515ca3f2ab70f426d53d92') in 0.035867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Zombies/Boss/skeletonzombie_t_avelange.fbx
+  artifactKey: Guid(7ef92a07712d242109b7d7377a93add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonzombie_t_avelange.fbx using Guid(7ef92a07712d242109b7d7377a93add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6006bfd0ef042884f0458bf344bd6f2') in 0.114597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Zombies/Boss/skeletonZombie_normal.png
+  artifactKey: Guid(dcf41742bdcc740e8b72f6c45d61a9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonZombie_normal.png using Guid(dcf41742bdcc740e8b72f6c45d61a9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b23d28d6f2aa0835b71ebc3294f723') in 0.049580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Zombies/Jill/zombie death.fbx
+  artifactKey: Guid(e17e8a791996a469bbc0bf248b9172b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Jill/zombie death.fbx using Guid(e17e8a791996a469bbc0bf248b9172b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d72fad48eb7644087b889b59531a77') in 0.043570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Zombies/Boss/zombie death.fbx
+  artifactKey: Guid(03f71dfa3bb2f48c5b8bfda829fc2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/zombie death.fbx using Guid(03f71dfa3bb2f48c5b8bfda829fc2d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5b29ed96d5bbaae73efae539a6bac4') in 0.019330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/Zombies/Boss/skeletonzombie_t_avelange@Mutant Swiping.fbx
+  artifactKey: Guid(d801c9ad1cb714922b563ebec805413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/Boss/skeletonzombie_t_avelange@Mutant Swiping.fbx using Guid(d801c9ad1cb714922b563ebec805413e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f00e251b2f5efd9f3908e5435103d2') in 0.124430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.231616 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbm/zombie_diffuse.png
+  artifactKey: Guid(18c0946f5d39542d2992d52b834a11be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbm/zombie_diffuse.png using Guid(18c0946f5d39542d2992d52b834a11be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51e16bbd4a952b1066942355dc520f7') in 0.046583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbm/zombie_normal.png
+  artifactKey: Guid(8f4c2895b1b69460a93f71bc9ced3091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbm/zombie_normal.png using Guid(8f4c2895b1b69460a93f71bc9ced3091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a721577a4d22bb9cecddadccb6ccf8a6') in 0.037381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/Materials/zombie_diffuse.mat
+  artifactKey: Guid(033273dd79b8b411c9f8af1bd2171494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/Materials/zombie_diffuse.mat using Guid(033273dd79b8b411c9f8af1bd2171494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c6a15311986a7fb37c629804be5ace') in 0.073174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbm/zombie_diffuse.png
+  artifactKey: Guid(ec8add3a3f8b245b6b0a9ed9b873cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbm/zombie_diffuse.png using Guid(ec8add3a3f8b245b6b0a9ed9b873cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c229dd30181352ae0d033e94c825f90') in 0.048422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbm/zombie_normal.png
+  artifactKey: Guid(37cac4988ea5241378a4769f8da27afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbm/zombie_normal.png using Guid(37cac4988ea5241378a4769f8da27afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6b2095cb897fd8e527cab5683c8f47') in 0.054728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbm/zombie_specular.png
+  artifactKey: Guid(0243eac4cf14d4916b82dfd9a6cbf074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan.fbm/zombie_specular.png using Guid(0243eac4cf14d4916b82dfd9a6cbf074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21016d52eea91980a4b8b682d12a1f14') in 0.046211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001166 seconds.
+  path: Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbm/zombie_specular.png
+  artifactKey: Guid(8a14240924b364509985528ef9775b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombies/ZombieGirl/Scary Zombie Pack/zombiegirl_w_kurniawan@Waving.fbm/zombie_specular.png using Guid(8a14240924b364509985528ef9775b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6bc8a525cf4abe76193b25d03641a3') in 0.044033 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010408 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.521 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2522ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2090ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (788ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (697ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (501ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.9 MB.
+System memory in use after: 237.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3971.
+Total: 8.813600 ms (FindLiveObjects: 0.554300 ms CreateObjectMapping: 0.260900 ms MarkObjects: 7.935900 ms  DeleteObjects: 0.058100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016292 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2272ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1839ms)
+			LoadAssemblies (262ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (706ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.6 MB.
+System memory in use after: 236.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3973.
+Total: 7.303700 ms (FindLiveObjects: 0.453600 ms CreateObjectMapping: 0.189400 ms MarkObjects: 6.618400 ms  DeleteObjects: 0.039200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005221 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\engan\OneDrive\Desktop\ANIL SIR CLASS\MidLevelFPSGame\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1313ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1090ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (480ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3038 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.6 MB.
+System memory in use after: 236.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3975.
+Total: 5.280300 ms (FindLiveObjects: 0.647300 ms CreateObjectMapping: 0.092100 ms MarkObjects: 4.499800 ms  DeleteObjects: 0.038300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

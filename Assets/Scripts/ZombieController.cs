@@ -95,7 +95,7 @@ public class ZombieController : MonoBehaviour
                 {
                     state = STATE.CHASE;
                 }
-                else if (Random.Range(0, 500) < 5) 
+                else if (Random.Range(0, 5000) < 5) 
                 {
                     state = STATE.WANDER;
                 }
@@ -119,7 +119,7 @@ public class ZombieController : MonoBehaviour
                 {
                     state = STATE.CHASE;
                 }
-                else if(Random.Range(0,100)<5)
+                else if(Random.Range(0,1000)<5)
                 {
                     state = STATE.IDLE;
                     TurnOffAnimTriggers();

@@ -91,67 +91,83 @@ public class ZombieController : MonoBehaviour
         switch (state)
         {
             case STATE.IDLE:
-                if (ZombieCanSeePlayer())
+                if(targetPlayer!=null)
                 {
-                    state = STATE.CHASE;
+                    if (ZombieCanSeePlayer())
+                    {
+                        state = STATE.CHASE;
+                    }
+                    else if (Random.Range(0, 5000) < 5)
+                    {
+                        state = STATE.WANDER;
+                    }
                 }
-                else if (Random.Range(0, 5000) < 5) 
-                {
-                    state = STATE.WANDER;
-                }
+                
                 
                 
                 break;
             case STATE.WANDER:
-                if(!enemyAgent.hasPath)
+                if(targetPlayer!=null)
                 {
-                    float newRandomPositionX = this.transform.position.x + Random.Range(-10, 10);
-                    float newRandomPositionZ = this.transform.position.z + Random.Range(-10, 10);
-                    float newRandomPositionY = Terrain.activeTerrain.SampleHeight(new Vector3(newRandomPositionX, 0, newRandomPositionZ));
-                    Vector3 finalDestination = new Vector3(newRandomPositionX, newRandomPositionY, newRandomPositionZ);
-                    enemyAgent.SetDestination(finalDestination);
-                    enemyAgent.stoppingDistance = 2.0f;
-                    TurnOffAnimTriggers();
-                    enemyAgent.speed = walkingSpeed;
-                    anim.SetBool("isWalking", true);
+                    if (!enemyAgent.hasPath)
+                    {
+                        float newRandomPositionX = this.transform.position.x + Random.Range(-10, 10);
+                        float newRandomPositionZ = this.transform.position.z + Random.Range(-10, 10);
+                        float newRandomPositionY = Terrain.activeTerrain.SampleHeight(new Vector3(newRandomPositionX, 0, newRandomPositionZ));
+                        Vector3 finalDestination = new Vector3(newRandomPositionX, newRandomPositionY, newRandomPositionZ);
+                        enemyAgent.SetDestination(finalDestination);
+                        enemyAgent.stoppingDistance = 2.0f;
+                        TurnOffAnimTriggers();
+                        enemyAgent.speed = walkingSpeed;
+                        anim.SetBool("isWalking", true);
+                    }
+                    else if (ZombieCanSeePlayer())
+                    {
+                        state = STATE.CHASE;
+                    }
+                    else if (Random.Range(0, 1000) < 5)
+                    {
+                        state = STATE.IDLE;
+                        TurnOffAnimTriggers();
+                        enemyAgent.ResetPath();
+                    }
                 }
-                else if(ZombieCanSeePlayer())
-                {
-                    state = STATE.CHASE;
-                }
-                else if(Random.Range(0,1000)<5)
-                {
-                    state = STATE.IDLE;
-                    TurnOffAnimTriggers();
-                    enemyAgent.ResetPath();
-                }
+                
                 
                 
                 break;
             case STATE.CHASE:
-                enemyAgent.SetDestination(targetPlayer.transform.position);
-                enemyAgent.stoppingDistance = 2.0f;
-                TurnOffAnimTriggers();
-                enemyAgent.speed = runningSpeed;
-                anim.SetBool("isRunning", true);
-                if(enemyAgent.remainingDistance<=enemyAgent.stoppingDistance && !enemyAgent.pathPending)
+                if(targetPlayer!=null)
                 {
-                    state = STATE.ATTACK;
+                    enemyAgent.SetDestination(targetPlayer.transform.position);
+                    enemyAgent.stoppingDistance = 2.0f;
+                    TurnOffAnimTriggers();
+                    enemyAgent.speed = runningSpeed;
+                    anim.SetBool("isRunning", true);
+                    if (enemyAgent.remainingDistance <= enemyAgent.stoppingDistance && !enemyAgent.pathPending)
+                    {
+                        state = STATE.ATTACK;
+                    }
+                    if (ZombieCantSeePlayer())
+                    {
+                        state = STATE.WANDER;
+                        enemyAgent.ResetPath();
+                    }
                 }
-                if(ZombieCantSeePlayer())
-                {
-                    state = STATE.WANDER;
-                    enemyAgent.ResetPath();
-                }
+                
                 break;
             case STATE.ATTACK:
-                TurnOffAnimTriggers();
-                anim.SetBool("isAttacking", true);
-                transform.LookAt(targetPlayer.transform);
-                if (DistanceToPlayer()>enemyAgent.stoppingDistance)
+                if(targetPlayer!=null)
                 {
-                    state = STATE.CHASE;
+                    TurnOffAnimTriggers();
+                    anim.SetBool("isAttacking", true);
+                    transform.LookAt(targetPlayer.transform);
+                    if (DistanceToPlayer() > enemyAgent.stoppingDistance)
+                    {
+                        state = STATE.CHASE;
+                    }
                 }
+               
                 break;
             case STATE.DEAD:
                 break;

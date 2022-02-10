@@ -20,6 +20,7 @@ public class ZombieController : MonoBehaviour
     NavMeshAgent enemyAgent;
     public float walkingSpeed;
     public float runningSpeed;
+    public GameObject zombieRagdollPrefab;
     
 
     enum STATE
@@ -88,6 +89,12 @@ public class ZombieController : MonoBehaviour
         //    anim.SetBool("isWalking", false);
         //    anim.SetBool("isAttacking", true);
         //}
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            GameObject rbtemp = Instantiate(zombieRagdollPrefab, this.transform.position, this.transform.rotation);
+            rbtemp.transform.Find("Hips").GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 10000);
+            Destroy(this.gameObject, 5.0f);
+        }
         switch (state)
         {
             case STATE.IDLE:

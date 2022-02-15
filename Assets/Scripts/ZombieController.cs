@@ -15,19 +15,20 @@ using UnityEngine.AI;
  */
 public class ZombieController : MonoBehaviour
 {
-    Animator anim;
-    public GameObject targetPlayer;
+    public Animator anim;
+    private GameObject targetPlayer;
     NavMeshAgent enemyAgent;
     public float walkingSpeed;
     public float runningSpeed;
     public GameObject zombieRagdollPrefab;
+    public float distanceToZombie;
     
 
-    enum STATE
+    public enum STATE
     {
         IDLE,WANDER,CHASE,ATTACK,DEAD
     };
-    STATE state = STATE.IDLE;
+    public STATE state = STATE.IDLE;
 
 
     // Start is called before the first frame update
@@ -35,10 +36,11 @@ public class ZombieController : MonoBehaviour
     {
         anim = this.GetComponent<Animator>();
         enemyAgent = GetComponent<NavMeshAgent>();
+        targetPlayer = GameObject.FindGameObjectWithTag("Player");
         //anim.SetBool("isWalking", true);
 
     }
-    void TurnOffAnimTriggers()
+    public void TurnOffAnimTriggers()
     {
         anim.SetBool("isWalking", false);
         anim.SetBool("isAttacking", false);
@@ -70,7 +72,7 @@ public class ZombieController : MonoBehaviour
 
     private float DistanceToPlayer()
     {
-        return Vector3.Distance(targetPlayer.transform.position, this.transform.position);
+        return distanceToZombie = Vector3.Distance(targetPlayer.transform.position, this.transform.position);
     }
 
 
@@ -89,22 +91,20 @@ public class ZombieController : MonoBehaviour
         //    anim.SetBool("isWalking", false);
         //    anim.SetBool("isAttacking", true);
         //}
-        if(Input.GetKeyDown(KeyCode.G))
-        {
-            if(Random.Range(0,10)<5)
-            {
-                GameObject rbtemp = Instantiate(zombieRagdollPrefab, this.transform.position, this.transform.rotation);
-                rbtemp.transform.Find("Hips").GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 10000);
-                Destroy(this.gameObject, 5.0f);
-            }
-            else
-            {
-                TurnOffAnimTriggers();
-                anim.SetBool("isDead", true);
-                state = STATE.DEAD;
-            }
-            
-        }
+        //if(Input.GetKeyDown(KeyCode.G))
+        //{
+        //    if(Random.Range(0,10)<5)
+        //    {
+        //        GameObject rbtemp = Instantiate(zombieRagdollPrefab, this.transform.position, this.transform.rotation);
+        //        rbtemp.transform.Find("Hips").GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * 10000);
+        //        Destroy(this.gameObject, 5.0f);
+        //    }
+        //    else
+        //    {
+        //        ZombieKill();
+        //    }
+
+        //}
         switch (state)
         {
             case STATE.IDLE:
@@ -193,5 +193,12 @@ public class ZombieController : MonoBehaviour
         }
 
 
+    }
+
+    public void ZombieKill()
+    {
+        TurnOffAnimTriggers();
+        anim.SetBool("isDead", true);
+        state = STATE.DEAD;
     }
 }

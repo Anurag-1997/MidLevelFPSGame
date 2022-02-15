@@ -21,6 +21,7 @@ public class CharacterController : MonoBehaviour
     public AudioSource MedBoxAudio;
     public AudioSource AmmoBoxAudio;
     public AudioSource playerDeathAudio;
+    public Transform gunShootPos;
 
     //Inventory Section
     private int ammo = 0;
@@ -123,8 +124,28 @@ public class CharacterController : MonoBehaviour
 
     private void ZombieHit()
     {
-        
+        RaycastHit hitInfo;
+        if (Physics.Raycast(gunShootPos.position, gunShootPos.forward, out hitInfo, 200f))
+        {
+            GameObject tempZombieHit = hitInfo.collider.gameObject;
+            if(tempZombieHit.tag=="Zombie")
+            {
+                GameObject tempRagDollZombiePrefab = tempZombieHit.GetComponent<ZombieController>().zombieRagdollPrefab;
+                GameObject tempNewRagdollPrefab = Instantiate(tempRagDollZombiePrefab, tempZombieHit.transform.position, tempZombieHit.transform.rotation);
+                tempNewRagdollPrefab.transform.Find("Hips").GetComponent<Rigidbody>().AddForce(gunShootPos.forward * 1000);
+                Destroy(tempZombieHit);
+            }
+            else
+            {
+
+                tempZombieHit.GetComponent<ZombieController>().ZombieKill();
+               
+            }
+        }
     }
+
+    
+    
 
     // Update is called once per frame
     void FixedUpdate()

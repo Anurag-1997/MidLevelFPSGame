@@ -1670,3 +1670,4 @@ Received Import Request.
   path: Assets/Prefabs/Boss_Ragdoll.prefab
   artifactKey: Guid(ca78d0f6ec8f5804ebd30624021e0e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Boss_Ragdoll.prefab using Guid(ca78d0f6ec8f5804ebd30624021e0e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81a1931624d7cd8220e14612bfd4410') in 0.034803 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

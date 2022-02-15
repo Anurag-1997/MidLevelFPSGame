@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -67,6 +68,10 @@ public class CharacterController : MonoBehaviour
                 Debug.Log("ammo left : " + ammo);
                 //anim.SetBool("Firing", true);
                 anim.SetTrigger("Firing");
+
+                ZombieHit();
+
+
             }
             
         }
@@ -114,6 +119,11 @@ public class CharacterController : MonoBehaviour
             }
         }
 
+    }
+
+    private void ZombieHit()
+    {
+        
     }
 
     // Update is called once per frame

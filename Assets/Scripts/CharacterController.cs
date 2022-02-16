@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterController : MonoBehaviour
 {
@@ -29,6 +30,11 @@ public class CharacterController : MonoBehaviour
     private int maxAmmo = 15;
     private int health = 0;
     private int maxHealth = 15;
+
+    //ammo and health display section
+    public Text ammoText;
+    public Text heathText;
+    
     
 
     private void Awake()
@@ -46,6 +52,8 @@ public class CharacterController : MonoBehaviour
     }
     private void Update()
     {
+        setAmmoAndHealth();
+
         if(Input.GetMouseButtonDown(1))
         {
             Cursor.lockState = CursorLockMode.Confined;
@@ -120,6 +128,11 @@ public class CharacterController : MonoBehaviour
             }
         }
 
+    }
+    void setAmmoAndHealth()
+    {
+        ammoText.text = "Ammo : " + ammo.ToString();
+        heathText.text = "Health : " + health.ToString();
     }
 
     private void ZombieHit()
